@@ -10,6 +10,7 @@ try{
       if (x[i].getAttribute('name') == 'check'){
           continue;
       }
+    if(x[i].getAttribute('value') == 4) //change the value to select from 1-poor, 2-fair, 3-good, 4-very good, 5-excellent
       x[i].click();
   }
 
